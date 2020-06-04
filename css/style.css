@@ -61,3 +61,7 @@ div[class*="sconto"]{
     color: red;
     opacity: 0;
 }
+
+.riquadro:hover .cuore{
+    opacity: 1;
+}
