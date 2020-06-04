@@ -16,11 +16,48 @@
     position:relative;
     width: 300px;
     height: 400px;
-    background-color: red;
+    background-color: white;
 }
 
 div[class*="sconto"]{
     position:absolute;
     right: 0;
-    background-color: green;
+}
+
+.sconto-rosso{
+    background-color: rgb(212, 37, 37);
+}
+.sconto-verde{
+    background-color: rgb(25, 218, 39);
+}
+
+.uno{
+    background-image: url('../img/cuffie.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.due{
+    background-image: url('../img/pc.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tre{
+    background-image: url('../img/phone.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.cuore{
+    position: absolute;
+    z-index: 2;
+    left: 150px;
+    bottom: 5px;
+    font-size: 50px;
+    color: red;
+    opacity: 0;
 }
