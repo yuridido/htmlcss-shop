@@ -6,17 +6,19 @@
 
 .contenitore{
     margin: 10px auto;
-    width: 950px;
-    border: 3px solid black;
+    width: 1000px;
     text-align: center;
 }
 
 .riquadro{
     display: inline-block;
     position:relative;
+    margin: 10px;
     width: 300px;
     height: 400px;
     background-color: white;
+    border: 3px solid black;
+    border-radius: 15% 0;
 }
 
 div[class*="sconto"]{
